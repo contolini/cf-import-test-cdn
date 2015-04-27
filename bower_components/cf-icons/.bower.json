@@ -1,0 +1,43 @@
+{
+  "name": "cf-icons",
+  "description": "Custom icon font for Capital Framework.",
+  "keywords": [
+    "capital-framework",
+    "capital",
+    "icons",
+    "less"
+  ],
+  "authors": [
+    {
+      "name": "Consumer Financial Protection Bureau",
+      "url": "https://cfpb.github.io/"
+    }
+  ],
+  "homepage": "https://github.com/cfpb/cf-icons",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cfpb/cf-icons.git"
+  },
+  "license": "https://github.com/cfpb/cf-icons/blob/gh-pages/TERMS.md",
+  "main": "src/less/cf-icons.less",
+  "dependencies": {
+    "cf-core": "contolini/cf-core#cdn"
+  },
+  "exportsOverride": {
+    "cf-*": {
+      "css": "src/**/*.css",
+      "less": "src/**/*.less",
+      "fonts": "src/fonts/*.*",
+      "js": "src/**/*.js"
+    }
+  },
+  "_release": "a9778ed6e0",
+  "_resolution": {
+    "type": "branch",
+    "branch": "cdn",
+    "commit": "a9778ed6e0df6bb5277f3bcc3e4aeea01fda1e45"
+  },
+  "_source": "git://github.com/contolini/cf-icons.git",
+  "_target": "cdn",
+  "_originalSource": "contolini/cf-icons"
+}
