@@ -32,11 +32,11 @@
       "js": "src/**/*.js"
     }
   },
-  "_release": "88b5a6e655",
+  "_release": "d1c193df41",
   "_resolution": {
     "type": "branch",
     "branch": "cdn",
-    "commit": "88b5a6e655b7330d94c6b521be6d1ea458cae028"
+    "commit": "d1c193df41dd2c54fce281cb49685ffc163a8b44"
   },
   "_source": "git://github.com/contolini/cf-core.git",
   "_target": "cdn",
