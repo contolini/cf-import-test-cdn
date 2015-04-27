@@ -1,0 +1,50 @@
+{
+  "name": "cf-forms",
+  "description": "Enhanced form styles for Capital Framework.",
+  "keywords": [
+    "capital-framework",
+    "capital",
+    "forms",
+    "less"
+  ],
+  "authors": [
+    {
+      "name": "Consumer Financial Protection Bureau",
+      "url": "http://cfpb.github.io/"
+    }
+  ],
+  "homepage": "https://github.com/cfpb/cf-forms",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cfpb/cf-forms.git"
+  },
+  "license": "https://github.com/cfpb/cf-forms/blob/gh-pages/TERMS.md",
+  "main": "src/cf-forms.less",
+  "dependencies": {
+    "cf-core": "contolini/cf-core#pure-less",
+    "cf-buttons": "contolini/cf-buttons#pure-less",
+    "cf-grid": "contolini/cf-grid#pure-less",
+    "cf-icons": "contolini/cf-icons#pure-less"
+  },
+  "exportsOverride": {
+    "cf-*": {
+      "css": "src/**/*.css",
+      "less": "src/**/*.less",
+      "fonts": "src/fonts/*.*",
+      "js": "src/**/*.js"
+    },
+    "font-awesome": {
+      "css": "css/*.css",
+      "fonts": "font/*.*"
+    }
+  },
+  "_release": "bdbb104772",
+  "_resolution": {
+    "type": "branch",
+    "branch": "cdn",
+    "commit": "bdbb1047728bb79211d227181a2789ee8e374548"
+  },
+  "_source": "git://github.com/contolini/cf-forms.git",
+  "_target": "cdn",
+  "_originalSource": "contolini/cf-forms"
+}
